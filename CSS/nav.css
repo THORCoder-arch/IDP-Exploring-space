@@ -1,0 +1,43 @@
+nav {
+    background-color: #001d35;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    font-family: 'Akaya Telivigala', cursive;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(121, 60, 178, 0.125);
+    backdrop-filter: blur(10px);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 8px rgba(119, 3, 244, 0.5),
+              0 0 16px rgba(136, 3, 244, 0.4),
+              0 0 25px rgba(132, 3, 244, 0.3),
+              0 0 35px rgba(136, 3, 244, 0.2);
+}
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14pt;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+
+nav a:hover {
+    color: #f0a500;
+}
+
+nav:hover{
+    background-color: rgba(121, 60, 178, 0.25);
+    width: 100%;
+}
+

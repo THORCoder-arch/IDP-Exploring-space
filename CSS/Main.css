@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+/*linking the fonts from google fonts*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+  }
+
+
+  
+  body {
+    font-family: 'Akaya Telivigala', cursive;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    transition: all 0.5s step-end;
+}
+
+
+
+img{
+  width: 350px;
+background: rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  backdrop-filter: blur(10px);
+  border: 3px solid rgb(90, 22, 215);
+  border-radius: 10%;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: all 0.5s ease;
+  height: 300px;
+}
+
+
+img:hover{
+ transform: scale(1.1);
+}
+
+
+
+
+.space {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  overflow: hidden;
+  background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+  .glassmorphism-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    transition: all 0.5s ease;
+  }
+
+  
+
+  .glassmorphism-cardT {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 100px;
+    width: 90%;
+    height: auto;
+    transition: all 0.5s ease;
+  }
+
+  .glassmorphism-card:hover{
+    transform: scale(1.025);
+    transform: translateY(-10px);
+
+    
+  }
+
+  .glassmorphism-cardT:hover{
+    transform: scale(1.025);
+  }
+
+  .glassmorphism-card p{
+   color: rgb(255, 255, 255);
+  }
+
+  .glassmorphism-card .heading2{
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Fredoka One';
+    background: -webkit-linear-gradient(rgb(243, 237, 237), rgb(235, 37, 179));
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    color: white;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .heading{
+    color: white;
+    font-size: 3em;
+    font-family: 'Fredoka One';
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(48, 48, 212));
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    color: white;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .heading2{
+    color: white;
+    font-size: 2em;
+    font-family: 'Fredoka One';
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(8, 8, 218));
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    color: white;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  p{
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Akaya Telivigala';
+    text-align: center;
+
+  }
+
+  header {
+    background: linear-gradient(rgba(255, 255, 255, 0.281), rgba(54, 54, 148, 0.37));
+    backdrop-filter: blur(10px);
+    width: 100%;
+    padding: 20px 0;
+}
+
+.videocard{
+ background: rgba(202, 197, 197, 0.146);
+ backdrop-filter: blur(10px);
+ width: auto;
+ margin: 40px;
+ padding: 20px;
+ height: auto;
+ border-radius: 5px;
+}
+
+.videocard video{
+  margin :1px;
+  border-radius: 10px;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.5s ease;
+}
+
+.videocard video:hover{
+  transform: scale(1.01);
+  border: 4px solid rgb(255, 255, 255);
+}
+
+
+
+footer {
+    background: linear-gradient(rgba(255, 255, 255, 0.281), rgba(54, 54, 148, 0.37));
+    backdrop-filter: blur(10px);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
