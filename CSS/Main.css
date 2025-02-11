@@ -52,7 +52,6 @@ img:hover{
   inset: 0;
   overflow: hidden;
   background: url(abstract-background-with-flowing-lines-sparkling-lights.jpg);
-  transition: all 0.5s ease;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
