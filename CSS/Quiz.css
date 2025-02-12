@@ -1,7 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
         body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+            font-family: 'Akaya Telivigala', cursive;
+            background: url(abstract-background-with-flowing-lines-sparkling-lights.jpg);
+            transition: all 0.5s ease;
+            background-repeat: no-repeat;
+            background-position: fixed;
+            background-size: cover;
             color: white;
             text-align: center;
             margin: 0;
